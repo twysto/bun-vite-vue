@@ -1,0 +1,57 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+*.local
+**/*.bun
+
+.DS_Store
+.env.development.local
+.env.local
+.env.production.local
+.env.test.local
+
+build
+dist
+dist-ssr
+
+# Dependencies
+.pnp
+.pnp.js
+
+node_modules
+package-lock.json
+
+# Unit testing
+coverage
+cypress/screenshots
+cypress/videos
+playwright-report
+test-results
+
+# Editor directories and files
+!.vscode/extensions.json
+
+*.njsproj
+*.ntvs*
+*.sln
+*.suo
+*.sw?
+
+.idea
+.vscode/*
+
+# Log files
+**/*.log
+**/*.trace
+
+lerna-debug.log*
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+logs
+
+# Compressed files
+**/*.tar.gz
+**/*.tgz
+**/*.zip
