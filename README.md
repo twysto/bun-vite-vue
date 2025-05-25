@@ -7,20 +7,50 @@ This is a Vue project bootstrapped with [bun](https://bun.sh/).
 ### Cloning the repo
 
 ```sh
-bun create vue ./vue-bun-app
+git clone https://github.com/twysto/bun-vite-vue
+```
+
+Or even better:
+
+```sh
+gh repo clone twysto/bun-vite-vue
 ```
 
 ### Development
 
-First, run the development server.
+First, run the development server:
 
+```sh
+bun run dev
 ```
-bun dev
+
+Open your browser and navigate to http://localhost:3000
+
+Great!
+
+You can start editing your app by modifying `src/App.vue`.
+The page will refresh when you edit and save a file from the `src` folder.
+
+### Preview
+
+Want to get a sneak peek of what you'll get after building your project?
+Simple! Just run:
+
+```sh
+bun run preview
 ```
 
-Open http://localhost:3000 with your browser to see the result.
+Open your browser and navigate to http://localhost:4173
 
-You can start editing the page by modifying `src/App.jsx`. The page auto-updates as you edit the file.
+# Build
+
+Ready to build you project before pushing it to production (or staging)?
+Run:
+
+```sh
+bun run build
+```
+Everything will be at your disposal in the `dist` folder.
 
 ## Learn More
 
