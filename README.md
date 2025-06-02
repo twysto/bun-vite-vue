@@ -16,6 +16,14 @@ Or even better:
 gh repo clone twysto/bun-vite-vue
 ```
 
+### Installation
+
+It's simple as:
+
+```sh
+bun install
+```
+
 ### Development
 
 First, run the development server:
@@ -52,11 +60,23 @@ bun run build
 ```
 Everything will be at your disposal in the `dist` folder.
 
-## Learn More
+# Learn more...
 
-To learn more about Vue.js, take a look at the following resources:
+To learn more about Bun, Vite and Vue, take a look at the following resources:
 
-- [Vue.js Documentation](https://vuejs.org/guide) - introduction to Vue.js
-- [Learn Vue.js](https://vuejs.org/tutorial) - interactive Vue.js tutorial
+## About Bun
 
-You can check out [the Vue.js GitHub repository](https://github.com/vuejs/vue) - your feedback and contributions are welcome!
+- [Bun's documentation](https://bun.sh/docs)
+- [Bun's guides](https://bun.sh/guides)
+- [Bun's GitHub repository](hhttps://github.com/oven-sh/bun)
+
+## About Vite
+
+- [Vite's documentation](https://vite.dev/guide/)
+- [Vite's GitHub repository](https://github.com/vitejs/vite)
+
+## About Vue
+
+- [Vue's documentation](https://vuejs.org/guide)
+- [Learn Vue](https://vuejs.org/tutorial)
+- [Vue's GitHub repository](https://github.com/vuejs/vue)
